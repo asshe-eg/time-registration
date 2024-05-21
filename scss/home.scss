@@ -1,7 +1,12 @@
+// Author: Ashwin
 .body{
     font-family: "montserrat",sans-serif;
 }
 .fs-14{
+    font-size: 14px;
+}
+
+.fs-12{
     font-size: 14px;
 }
 
@@ -31,4 +36,15 @@
 
   .color-custom{
     color: #4682B4;
+  }
+
+  .today li::marker {
+    color: #A52A2A; 
+}
+  .other-date li::marker{
+    color:#CF9E57
+  }
+
+  .navbar-nav li a:active{
+    font-size: larger;
   }
