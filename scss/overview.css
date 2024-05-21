@@ -9,12 +9,12 @@ body {
 }
 
 .col-9 .row {
-  background: #f9fafb;
-  width: 100%;
-  height: 100%;
+  /* background: #f9fafb; */
+  /* width: 100%; */
+  /* height: 100%; */
   gap: 32px;
   opacity: 0px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .col h5 {
