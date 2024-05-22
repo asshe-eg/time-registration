@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
 }
@@ -150,6 +150,17 @@
   margin-left: 65%;
   font-weight: bolder;
   transform: translate(0, -50%);
+}
+
+.nav-link .active {
+  color: #001f3f;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-link {
+  color: #708090;
+  font-weight: 400;
 }
 
 .text-custom {
