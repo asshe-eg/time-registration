@@ -48,6 +48,15 @@ body {
   padding-left: 5px;
 }
 
+.btn1 {
+  font-size: 16px;
+  color: #4682B4;
+  border: 0px;
+}
+.btn1:hover {
+  color: #4682B4;
+}
+
 .form-label {
   font-size: 16px;
   font-weight: 400;
@@ -94,25 +103,25 @@ body {
 #validationCustom04 {
   font-family: Montserrat;
   font-size: 16px;
-  color: #C0C0C0;
+  color: #c0c0c0;
   border-radius: 5px;
   font-weight: 400;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px 0px rgba(0, 31, 63, 0.1098039216);
 }
 #validationCustom04::-moz-placeholder {
-  color: #C0C0C0;
+  color: #c0c0c0;
   opacity: 1;
 }
 #validationCustom04::placeholder {
-  color: #C0C0C0;
+  color: #c0c0c0;
   opacity: 1;
 }
 
 #validationTextarea {
   font-family: Montserrat;
   font-size: 16px;
-  color: #C0C0C0;
+  color: #c0c0c0;
   height: 117px;
   border-radius: 5px;
   font-weight: 400;
@@ -120,11 +129,11 @@ body {
   box-shadow: 0px 2px 4px 0px rgba(0, 31, 63, 0.1098039216);
 }
 #validationTextarea::-moz-placeholder {
-  color: #C0C0C0;
+  color: #c0c0c0;
   opacity: 1;
 }
 #validationTextarea::placeholder {
-  color: #C0C0C0;
+  color: #c0c0c0;
   opacity: 1;
 }
 
@@ -140,7 +149,7 @@ body {
 #validationCustomUsername {
   font-family: Montserrat;
   font-size: 16px;
-  color: #C0C0C0;
+  color: #c0c0c0;
   border-radius: 5px;
   font-weight: 700;
   background-color: #ffffff;
@@ -166,7 +175,7 @@ body {
   bottom: 8px;
   right: 48px;
   font-size: 16px;
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .textarea-end-img {
@@ -200,11 +209,93 @@ body {
 }
 
 .table {
-  width: 360px;
-  height: 404px;
+  width: 372px;
+  height: 300px;
   top: 149px;
   left: 587px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
   opacity: 0px;
+}
+
+h6 {
+  color: #001f3f;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.calendar-table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.calendar-table th,
+.calendar-table td {
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  height: 10px;
+}
+.calendar-table thead tr th {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #708090;
+}
+.calendar-table tbody tr td {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0px;
+  letter-spacing: 0.5px;
+  color: #001f3f;
+  height: 10px;
+}
+
+.btn-ok {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #001f3f;
+  border: 0px;
+}
+
+.btn-cancel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #708090;
+  border: 0px;
+}
+
+.modal-header {
+  border: 0px;
+}
+
+.mod-h5 {
+  margin-left: 145px;
+  font-size: 16px;
+  color: #001f3f;
+  border: 0px;
+}
+
+.custom-body {
+  justify-content: space-evenly;
+}
+.custom-body .right-cha {
+  margin: 0px -92px 12px 8px;
+}
+.custom-body .left-cha {
+  margin: 0px -92px 12px 8px;
+}
+
+.custom-mod {
+  border-radius: 3px 0px 0px 0px;
+}
+
+.custom-content {
+  background-color: #F9FAFB;
 }/*# sourceMappingURL=time_regi.css.map */
