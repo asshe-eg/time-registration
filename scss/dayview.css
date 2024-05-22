@@ -139,6 +139,10 @@ body {
   display: inline;
 }
 
+.mr-4 {
+  margin-right: 4px;
+}
+
 .innertext {
   padding-left: 7px;
   border-left: 5px;
@@ -239,4 +243,32 @@ body {
 .right {
   right: -30px;
   bottom: 20px;
+}
+
+.add-btn {
+  position: fixed;
+  margin-left: 93%;
+  margin-top: 600px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.events {
+  z-index: -1;
+}
+
+.align-dot {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.content img {
+  position: absolute;
+  top: 0;
+  right: 0;
 }/*# sourceMappingURL=dayview.css.map */

@@ -91,7 +91,7 @@ body {
   border-radius: 50px;
   width: 80%;
   color: black;
-  padding-left: 22%;
+  padding-left: 19%;
   padding-top: 7%;
   padding-bottom: 7%;
 }
@@ -101,7 +101,7 @@ body {
   border-radius: 50px;
   width: 80%;
   color: white;
-  padding-left: 22%;
+  padding-left: 19%;
   padding-top: 7%;
   padding-bottom: 7%;
   cursor: pointer;
@@ -268,7 +268,7 @@ body {
 }
 
 .dropdown {
-  margin-left: 690px;
+  margin-left: 650px;
   padding-bottom: 100px;
 }
 
@@ -317,4 +317,26 @@ body {
 
 .mr-48 {
   margin-right: 48px;
+}
+
+.add-btn {
+  position: fixed;
+  margin-left: 93%;
+  margin-top: 600px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.events {
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+}
+
+.content img {
+  position: absolute;
+  top: 0;
+  right: 50%;
 }/*# sourceMappingURL=monthview.css.map */
