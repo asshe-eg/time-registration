@@ -6,16 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./scss/dayview.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <title>EG Legal</title>
-  <link rel="icon" href="images/EG-removebg-preview.png">
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./scss/dayview.css">
+  <link rel="stylesheet" href="/scss/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Eg Legal</title>
 
 </head>
 
@@ -24,162 +22,433 @@
 
 
     <div class="row">
-      <div class="col-3 shadow-lg">
+      <div class="col-3 shadow position-relative" style="height: 678px;">
 
-        <div class="row shadow-sm">
+        <div class="row shadow-sm " style="height: 50px;">
           <div class="col ">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
 
               <li class="nav-item">
                 <a class="nav-link" href="#"><img src="/images/eg-logo.svg" alt="" width="20px" height="20px"><span
-                    class="ms-3 fs-12"> Legal Solution </span></a>
+                    class="ms-3 fs-16"> Legal Solution </span></a>
               </li>
             </ul>
 
           </div>
         </div>
-        <div class="mb-250">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
             <li>
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill"></i>
-                <span class="ms-2 fs-12"> Home </span></a>
+              <a class="nav-link active" aria-current="page" href="/home.html"><i class="bi bi-house-fill"></i>
+                <span class="ms-3 fs-16"> Home </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-plus-circle"></i> <span class="ms-2 fs-12">
+              <a class="nav-link" href="#"><i class="bi bi-plus-circle"></i> <span class="ms-3 fs-16">
                   Time
                   registration </span></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-calendar4"></i> <span class="ms-2 fs-12">
+              <a class="nav-link" href="/monthview.html"><i class="bi bi-calendar4"></i> <span class="ms-3 fs-16">
                   Calendar
                 </span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-bar-chart"></i> <span class="ms-2 fs-12">
+              <a class="nav-link" href="/overview.html"><i class="bi bi-bar-chart"></i> <span class="ms-3 fs-16">
                   Overview
                 </span></a>
             </li>
           </ul>
         </div>
+        <li>
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#notificationModal">
+                                Launch demo modal
+                              </button> -->
+          <a class="nav-link active" aria-current="page" href="/notification.html" data-bs-toggle="modal"
+            data-bs-target="#notificationModal"><i class="bi bi-bell-fill"></i>
+            <span class="ms-2 fs-14"> Notification <sup>3</sup></span></a>
+        </li>
 
-        <div class="mt-5">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="mt-5 position-absolute bottom-0 start-1">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
             <li>
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-bell-fill"></i>
-                <span class="ms-2 fs-12"> Notification <sup>3</sup></span></a>
+              <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#notificationModal">
+                    Launch demo modal
+                  </button> -->
+              <a class="nav-link active" aria-current="page" href="/notification.html" data-bs-toggle="modal"
+                data-bs-target="#notificationModal"><i class="bi bi-bell-fill"></i>
+                <span class="ms-3 fs-16"> Notification <sup>3</sup></span></a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></i> <span class="ms-2 fs-12">
+              <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></i> <span class="ms-3 fs-16">
                   Camile Jensen </span></a>
             </li>
         </div>
 
       </div>
-      <div class="col-9">
+      <div class="col-9 p-0">
+        <div class="ml-48 mt-32 mr-48 mt-32">
 
-        <div class="row">
-          <div class="col ">
-            <h5 class="text-center">Week 47</h5>
+          <div class="row">
+            <div class="col">
+              <h5 class="text-center pd-16">Week 47</h5>
+            </div>
           </div>
-        </div>
 
-        <!-- date-carousel -->
-        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card-wrapper container-sm d-flex  justify-content-around">
-                <div class="card" style="width: 18rem;">
-
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
-                  </div>
+          <div class="row">
+            <div class="text pd-32">
+              Week Total: <div class="text-bold"> 32:00h
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-list"></i> Day View
+                  </button>
+                  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="monthview.html"><i class="bi bi-plus"></i> Month view</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-pencil"></i> Year view</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="card-wrapper container-sm d-flex   justify-content-around">
-                <div class="card  " style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
 
+          </div>
+
+          <div class="row">
+            <div class="text pd-32">
+              <div class="text-bold"> December 2023</div>
+            </div>
+          </div>
+
+          <!-- date-carousel -->
+          <div id="carouselExampleControls" class="carousel carousel-dark slide pd-24">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper container-sm d-flex justify-content-around">
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">01<br>Mo</span>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">02<br>Tu</span>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">03<br>We</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">04<br>Th</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card-wrapper container-sm d-flex  justify-content-around">
-                <div class="card " style="width: 18rem;">
-
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex   justify-content-around">
+                  <div class="card  " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">05<br>Fr</span>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">06<br>Sa</span>
+                    </div>
                   </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">07<br>Su</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">08<br>Mo</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">09<br>Tu</span>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">10<br>We</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">11<br>Th</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">12<br>Fr</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">13<br>Sa</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">14<br>Su</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">15<br>Mo</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">16<br>Tu</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">17<br>We</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">18<br>Th</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">19<br>Fr</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">20<br>Sa</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">21<br>Su</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">22<br>Mo</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">23<br>Tu</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">24<br>We</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">25<br>Th</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">26<br>Fr</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">27<br>Sa</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">28<br>Su</span>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">29<br>Mo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">30<br>Tu</span>
+                    </div>
+                  </div>
+                  <div class="card " style="width: 3.378rem; height:3.438rem">
+                    <div class="card-body-1">
+                      <span class="card-title">31<br>We</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-prev left-neg49 carousel-btn-back" type="button"
+              data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carousel-btn " aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            <button class="carousel-control-next right" type="button" data-bs-target="#carouselExampleControls"
               data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon carousel-btn" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
 
 
+          <div class="problem ">
+            <div class="textproblem "><img src="./images/warning.svg" alt="">
+              <p>Incomplete registrations : 1</p>
+            </div>
+          </div>
+
+          <div class="events pt-24">
+
+            <div class="card text-custom bord-left mt-2 mb-2">
+              <div class="card-body ">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title mb-0 fs-14"><b>13:00 - 14:15</b></h5>
+                    <p class="card-text first mb-0 fs-14">Missing Information</p>
+                  </div>
+                  <div>
+                    <a class="nav-link d-inline fs-16">
+                      <img src="./images/warning.svg" alt="">
+                    </a>
+                    <span class="fs-14"><b>01:24</b></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card text-custom mb-2">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title fs-14"><b>12:10 - 12:58 / 15:40 - 16:00</b></h5>
+                    <p class="card-text mb-0 fs-14">13446 - O. Jeppesen</p>
+                    <p class="card-text fs-14">Court Hearing - Being present at c...</p>
+                    <a class="nav-link d-inline fs-16"><img src="./images/add.svg" alt=""> 2 registrations</a>
+                  </div>
+                  <div>
+                    <p class="fs-14"><b>01:58</b></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card  text-custom mb-2">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title mb-0 fs-14"><b>12:10 - 12:58</b></h5>
+                    <p class="card-text mb-0 fs-14">13446 - O. Jeppesen</p>
+                    <p class="card-text fs-14">Court Hearing - Being present at c...</p>
+                  </div>
+                  <div>
+                    <p class="fs-14"><b>02:08</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal " tabindex="-1" id="notificationModal" style="width: 30% ;top: 13px;
+          left: 318px;;">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content rounded-0">
+                <div class="modal-header border-bottom-0">
+                  <div>
+                    <h5 class="modal-title fs-16">Notification</h5>
+                    <a class="nav-link modal-title fs-14 mt-2 text-primary " href="#">Mark all as
+                      read (3)</a>
+                  </div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body today">
+                  <h5 class="modal-title fs-14">Today</h5>
+                  <div class="bg-body-tertiary mt-2">
+                    <ul>
+                      <li>
+                        <p class="modal-title fs-16">Overdue Registration - <span class="text-secondary">CK324</span>
+                        </p>
+                        <p class="modal-title fs-14 text-secondary mt-2">A time registration
+                          made on 23.11.2023 needs to be registered</p>
+                        <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                          class="nav-link d-inline fs-14 text-primary ms-2"><i class="bi bi-box-arrow-up-right"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr>
+                  <h5 class="modal-title fs-14">23.11.2023</h5>
+                  <div class="mt-2 other-date">
+                    <ul>
+                      <li>
+                        <p class="modal-title fs-16">Overdue Registration - <span class="text-secondary">CP424</span>
+                        </p>
+                        <p class="modal-title fs-14 text-secondary mt-2">A time registration registered as a draft on
+                          29.11.2023 needs to have its information added</p>
+                        <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                          class="nav-link d-inline fs-14 text-primary ms-2"><i class="bi bi-box-arrow-up-right"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="mt-2 other-date">
+                    <ul>
+                      <li>
+                        <p class="modal-title fs-16">Overdue Registration - <span class="text-secondary">KP464</span>
+                        </p>
+                        <p class="modal-title fs-14 text-secondary mt-2">A time registration registered as a draft on
+                          28.11.2023 needs to have its information added</p>
+                        <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                          class="nav-link d-inline fs-14 text-primary ms-2"><i class="bi bi-box-arrow-up-right"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- <div class="modal-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aut cupiditate, magni vero, vel velit laudantium ullam non neque, provident expedita delectus aliquid nesciunt. Tempora fuga iste libero temporibus soluta hic! Illo.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div> -->
+            </div>
+          </div>
         </div>
       </div>
-
-
-
+      <div class="position:absolute">
+        <img src="./logo/symbol-add.svg" alt="">
+      </div>
     </div>
 
   </div>

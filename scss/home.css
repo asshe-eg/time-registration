@@ -1,5 +1,6 @@
-.body {
+body {
   font-family: "montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .fs-14 {
@@ -24,6 +25,14 @@
 
 .ml-48 {
   margin-left: 48px;
+}
+
+.mr-48 {
+  margin-right: 48px;
+}
+
+.mt-32 {
+  margin-left: 32px;
 }
 
 .silver-card {
