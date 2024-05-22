@@ -1,3 +1,4 @@
+// Author: Ashwin
 body {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
@@ -52,26 +53,24 @@ body {
 }
 
 .other-date li::marker {
-  color: #CF9E57;
+  color: #CF9E57
 }
 
 .navbar-nav li a:active {
   font-size: larger;
 }
-
-.nav-link .active {
+.nav-link  .active{
   color: #001f3f;
   font-weight: 500;
   font-size: 16px;
 }
-
 .nav-link {
   color: #708090;
   font-weight: 400;
-}
 
-.content .bell {
+}
+.content .bell{
   position: absolute;
   top: 9px;
   left: 17px;
-}/*# sourceMappingURL=home.css.map */
+}

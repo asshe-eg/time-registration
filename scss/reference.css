@@ -40,7 +40,7 @@ body {
 }
 
 .text-custom {
-  border-left: 5px solid #4682B4;
+  /* border-left: 5px solid #4682B4; */
 }
 
 .color-custom {
@@ -73,5 +73,5 @@ body {
 .content .bell {
   position: absolute;
   top: 9px;
-  left: 17px;
-}/*# sourceMappingURL=home.css.map */
+  left: 9px;
+}/*# sourceMappingURL=reference.css.map */

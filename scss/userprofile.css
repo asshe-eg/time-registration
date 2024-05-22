@@ -39,6 +39,10 @@ body {
   background-image: linear-gradient(to right, gray, white, gray, rgb(96, 130, 141), gray, white, gray);
 }
 
+.text-custom {
+  border-left: 5px solid #4682B4;
+}
+
 .color-custom {
   color: #4682B4;
 }
@@ -64,6 +68,12 @@ body {
 .nav-link {
   color: #708090;
   font-weight: 400;
+}
+
+.content .bell {
+  position: absolute;
+  top: 9px;
+  left: 17px;
 }
 
 .center {
@@ -123,6 +133,12 @@ body {
 
 .other-date li::marker {
   color: #CF9E57;
+}
+
+.content .bell {
+  position: absolute;
+  top: 9px;
+  left: 9px;
 }
 
 .nav-link .active {

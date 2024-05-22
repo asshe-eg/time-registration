@@ -54,7 +54,11 @@
     color:#CF9E57
   }
 
-  
+  .content .bell{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+  }
   .nav-link .active{
     color: #001f3f;
     font-weight: 500;

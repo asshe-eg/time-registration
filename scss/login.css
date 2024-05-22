@@ -81,4 +81,10 @@ body {
 }
 .row .col-4 .btn-custom:hover {
   background-color: #001f3f;
+}
+
+.content .bell {
+  position: absolute;
+  top: 9px;
+  left: 9px;
 }/*# sourceMappingURL=login.css.map */

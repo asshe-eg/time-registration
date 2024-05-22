@@ -179,4 +179,10 @@ body {
 .x-axis .x-label {
   font-size: 14px;
   color: #333;
+}
+
+.content .bell {
+  position: absolute;
+  top: 9px;
+  left: 17px;
 }/*# sourceMappingURL=overview.css.map */
