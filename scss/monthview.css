@@ -1,5 +1,6 @@
 .body {
   font-family: "montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .fs-14 {
@@ -101,13 +102,11 @@
   padding: 0;
 }
 
-.carousel-inner.card {
-  width: 9rem;
-}
-
 .card-body-1 {
   padding: 2px;
   text-align: center;
+  padding-top: 13%;
+  width: 110px;
   border-style: none;
   border: none;
 }
@@ -169,6 +168,10 @@
   font-size: 18px;
 }
 
+.card-title-1 {
+  font-size: 18px;
+}
+
 .inneritems {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -176,7 +179,7 @@
 }
 
 .dropdown {
-  display: inline;
+  position: absolute;
 }
 
 .innertext {
@@ -265,14 +268,18 @@
   color: black;
 }
 
-.left-neg49 {
-  left: 0px;
-  top: 7px;
+.left-btn-position {
+  left: 330px;
+  top: 11px;
 }
 
-.right {
-  right: -30px;
-  bottom: 20px;
+.right-1 {
+  right: 275px;
+  bottom: 26px;
+}
+
+.row {
+  font-size: 18px;
 }
 
 .text-dim {
@@ -280,7 +287,7 @@
 }
 
 .calendar {
-  font-weight: bold;
+  gap: 90px;
 }
 
 .pl-3 {
