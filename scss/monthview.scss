@@ -8,6 +8,38 @@
     color: black;
     border: none;
 }
+.btn-background1{
+    background-color: white;
+    color:  #001F3F;
+    border: none;
+}
+.btn-background1:hover{
+    background-color: #001F3F;
+    color:  white;
+    border: none;
+    border-radius: 50px;
+}
+.alignment{
+    justify-content: center;
+}
+.year-btn{
+    border-radius: 50px;
+    width: 80%;
+    color: black;
+    padding-left: 22%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.year-btn:hover{
+    background-color: #001F3F;
+    border-radius: 50px;
+    width: 80%;
+    color: white;
+    padding-left: 22%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    cursor: pointer;
+}
 
 .carousel-inner>.card{
     padding:0;
@@ -163,6 +195,10 @@
     margin-left: 690px;
     padding-bottom: 100px;
 }
+.dropdownMenuButton{
+    background-color: white;
+    color: black;
+}
 .left-neg49{
     left: 0px;
     top: 7px;
@@ -170,4 +206,17 @@
 .right{
     right: -30px;
     bottom: 20px;
+}
+
+// calendar css
+
+.text-dim{
+    color:#b8b8b8;
+    
+}
+.calendar{
+    font-weight: bold;
+}
+.pl-3{
+    padding-left: 4%;
 }

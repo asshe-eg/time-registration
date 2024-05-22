@@ -2,12 +2,52 @@
   font-family: "montserrat", sans-serif;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-12 {
   font-size: 14px;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
 .mb-250 {
   margin-bottom: 250px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.ml-48 {
+  margin-left: 48px;
+}
+
+.silver-card {
+  background-image: linear-gradient(to right, gray, white, gray, rgb(96, 130, 141), gray, white, gray);
+}
+
+.text-custom {
+  border-left: 5px solid #4682B4;
+}
+
+.color-custom {
+  color: #4682B4;
+}
+
+.today li::marker {
+  color: #A52A2A;
+}
+
+.other-date li::marker {
+  color: #CF9E57;
+}
+
+.navbar-nav li a:active {
+  font-size: larger;
 }
 
 * {
@@ -18,6 +58,43 @@
   background-color: white;
   color: black;
   border: none;
+}
+
+.btn-background1 {
+  background-color: white;
+  color: #001F3F;
+  border: none;
+}
+
+.btn-background1:hover {
+  background-color: #001F3F;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+.alignment {
+  justify-content: center;
+}
+
+.year-btn {
+  border-radius: 50px;
+  width: 80%;
+  color: black;
+  padding-left: 22%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.year-btn:hover {
+  background-color: #001F3F;
+  border-radius: 50px;
+  width: 80%;
+  color: white;
+  padding-left: 22%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  cursor: pointer;
 }
 
 .carousel-inner > .card {
@@ -183,6 +260,11 @@
   padding-bottom: 100px;
 }
 
+.dropdownMenuButton {
+  background-color: white;
+  color: black;
+}
+
 .left-neg49 {
   left: 0px;
   top: 7px;
@@ -191,4 +273,16 @@
 .right {
   right: -30px;
   bottom: 20px;
+}
+
+.text-dim {
+  color: #b8b8b8;
+}
+
+.calendar {
+  font-weight: bold;
+}
+
+.pl-3 {
+  padding-left: 4%;
 }/*# sourceMappingURL=monthview.css.map */
