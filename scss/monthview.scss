@@ -1,4 +1,4 @@
-@import './home.scss';
+// author : vaishnav
 *{
      font-family: "montserrat",sans-serif;
     font-weight: 500;
@@ -266,4 +266,9 @@
     position: absolute;
     top: 0;
     right: 50%;
+  }
+  .content .bell{
+    position: absolute;
+    top: 9px;
+    left: 9px;
   }

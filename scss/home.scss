@@ -41,7 +41,7 @@ body {
 }
 
 .text-custom {
-  // border-left: 5px solid #4682B4;
+  border-left: 5px solid #4682B4;
 }
 
 .color-custom {
@@ -68,4 +68,9 @@ body {
   color: #708090;
   font-weight: 400;
 
+}
+.content .bell{
+  position: absolute;
+  top: 9px;
+  left: 17px;
 }

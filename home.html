@@ -11,7 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="/scss/home.css">
     <link rel="icon" href="images/EG-removebg-preview.png">
 </head>
@@ -36,22 +39,26 @@
                 <div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
                         <li>
-                            <a class="nav-link active" aria-current="page" href="/home.html"><i class="bi bi-house-fill"></i>
+                            <a class="nav-link active" aria-current="page" href="/home.html"><i
+                                    class="bi bi-house-fill"></i>
                                 <span class="ms-3 fs-16"> Home </span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/time_regi.html"><i class="bi bi-plus-circle"></i> <span class="ms-3 fs-16">
+                            <a class="nav-link" href="/time_regi.html"><i class="bi bi-plus-circle"></i> <span
+                                    class="ms-3 fs-16">
                                     Time
                                     registration </span></a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/monthview.html"><i class="bi bi-calendar4"></i> <span class="ms-3 fs-16">
+                            <a class="nav-link" href="/monthview.html"><i class="bi bi-calendar4"></i> <span
+                                    class="ms-3 fs-16">
                                     Calendar
                                 </span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/overview.html"><i class="bi bi-bar-chart"></i> <span class="ms-3 fs-16">
+                            <a class="nav-link" href="/overview.html"><i class="bi bi-bar-chart"></i> <span
+                                    class="ms-3 fs-16">
                                     Overview
                                 </span></a>
                         </li>
@@ -64,12 +71,13 @@
                             <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#notificationModal">
                                 Launch demo modal
                               </button> -->
-                            <a class="nav-link active" aria-current="page" href="/notification.html" data-bs-toggle="modal"
-                                data-bs-target="#notificationModal"><i class="bi bi-bell-fill"></i>
-                                <span class="ms-3 fs-16"> Notification <sup>3</sup></span></a>
+                            <a class="nav-link content " aria-current="page" href="/notification.html"
+                                data-bs-toggle="modal" data-bs-target="#notificationModal"><i
+                                    class="bi bi-bell-fill"></i><img src="./logo/reddot.svg" class="bell" alt="">
+                                <span class="ms-3 fs-16 "> Notification <sup>3</sup></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></i> <span
+                            <a class="nav-link" href="/userprofile.html"><i class="bi bi-person-circle"></i></i> <span
                                     class="ms-3 fs-16">
                                     Camile Jensen </span></a>
                         </li>
@@ -192,73 +200,77 @@
                 </div>
                 <div class="modal " tabindex="-1" id="notificationModal" style="width: 30% ;top: 13px;
                     left: 318px;;">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content rounded-0">
-                                <div class="modal-header border-bottom-0">
-                                    <div>
-                                        <h5 class="modal-title fs-16">Notification</h5>
-                                        <a class="nav-link modal-title fs-14 mt-2 text-primary " href="#">Mark all as
-                                            read (3)</a>
-                                    </div>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header border-bottom-0">
+                                <div>
+                                    <h5 class="modal-title fs-16">Notification</h5>
+                                    <a class="nav-link modal-title fs-14 mt-2 text-primary " href="#">Mark all as
+                                        read (3)</a>
                                 </div>
-                                <div class="modal-body today">
-                                    <h5 class="modal-title fs-14">Today</h5>
-                                    <div class="bg-body-tertiary mt-2">
-                                        <ul>
-                                            <li>
-                                                <p class="modal-title fs-16">Overdue Registration - <span
-                                                        class="text-secondary">CK324</span></p>
-                                                <p class="modal-title fs-14 text-secondary mt-2">A time registration
-                                                    made on 23.11.2023 needs to be registered</p>
-                                                <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a
-                                                    href="#" class="nav-link d-inline fs-14 text-primary ms-2"><i
-                                                        class="bi bi-box-arrow-up-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <hr>
-                                    <h5 class="modal-title fs-14">23.11.2023</h5>
-                                    <div class="mt-2 other-date">
-                                        <ul>
-                                            <li>
-                                                <p class="modal-title fs-16">Overdue Registration - <span
-                                                        class="text-secondary">CP424</span></p>
-                                                <p class="modal-title fs-14 text-secondary mt-2">A time registration registered as a draft on 29.11.2023 needs to have its information added</p>
-                                                <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a
-                                                    href="#" class="nav-link d-inline fs-14 text-primary ms-2"><i
-                                                        class="bi bi-box-arrow-up-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="mt-2 other-date">
-                                        <ul>
-                                            <li>
-                                                <p class="modal-title fs-16">Overdue Registration - <span
-                                                        class="text-secondary">KP464</span></p>
-                                                <p class="modal-title fs-14 text-secondary mt-2">A time registration registered as a draft on 28.11.2023 needs to have its information added</p>
-                                                <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a
-                                                    href="#" class="nav-link d-inline fs-14 text-primary ms-2"><i
-                                                        class="bi bi-box-arrow-up-right"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+
+                            </div>
+                            <div class="modal-body today">
+                                <h5 class="modal-title fs-14">Today</h5>
+                                <div class="bg-body-tertiary mt-2">
+                                    <ul>
+                                        <li>
+                                            <p class="modal-title fs-16">Overdue Registration - <span
+                                                    class="text-secondary">CK324</span></p>
+                                            <p class="modal-title fs-14 text-secondary mt-2">A time registration
+                                                made on 23.11.2023 needs to be registered</p>
+                                            <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                                                class="nav-link d-inline fs-14 text-primary ms-2"><i
+                                                    class="bi bi-box-arrow-up-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr>
+                                <h5 class="modal-title fs-14">23.11.2023</h5>
+                                <div class="mt-2 other-date">
+                                    <ul>
+                                        <li>
+                                            <p class="modal-title fs-16">Overdue Registration - <span
+                                                    class="text-secondary">CP424</span></p>
+                                            <p class="modal-title fs-14 text-secondary mt-2">A time registration
+                                                registered as a draft on 29.11.2023 needs to have its information added
+                                            </p>
+                                            <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                                                class="nav-link d-inline fs-14 text-primary ms-2"><i
+                                                    class="bi bi-box-arrow-up-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt-2 other-date">
+                                    <ul>
+                                        <li>
+                                            <p class="modal-title fs-16">Overdue Registration - <span
+                                                    class="text-secondary">KP464</span></p>
+                                            <p class="modal-title fs-14 text-secondary mt-2">A time registration
+                                                registered as a draft on 28.11.2023 needs to have its information added
+                                            </p>
+                                            <a href="#" class="nav-link d-inline fs-14 text-primary">view</a><a href="#"
+                                                class="nav-link d-inline fs-14 text-primary ms-2"><i
+                                                    class="bi bi-box-arrow-up-right"></i></a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                        </div>
 
 
 
-                            <!-- <div class="modal-body">
+                        <!-- <div class="modal-body">
                               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aut cupiditate, magni vero, vel velit laudantium ullam non neque, provident expedita delectus aliquid nesciunt. Tempora fuga iste libero temporibus soluta hic! Illo.</p>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                               <button type="button" class="btn btn-primary">Save changes</button>
                             </div> -->
-                        </div>
                     </div>
+                </div>
             </div>
         </div>
     </div>
