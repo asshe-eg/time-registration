@@ -2,7 +2,11 @@
   font-family: "montserrat", sans-serif;
 }
 
-.fsize-14 {
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
   font-size: 14px;
 }
 
@@ -12,6 +16,38 @@
 
 .mb-250 {
   margin-bottom: 250px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.ml-48 {
+  margin-left: 48px;
+}
+
+.silver-card {
+  background-image: linear-gradient(to right, gray, white, gray, rgb(96, 130, 141), gray, white, gray);
+}
+
+.text-custom {
+  border-left: 5px solid #4682B4;
+}
+
+.color-custom {
+  color: #4682B4;
+}
+
+.today li::marker {
+  color: #A52A2A;
+}
+
+.other-date li::marker {
+  color: #CF9E57;
+}
+
+.navbar-nav li a:active {
+  font-size: larger;
 }
 
 * {
